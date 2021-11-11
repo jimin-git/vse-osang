@@ -1,7 +1,7 @@
 # vse-osang
 
 2021/8월 02일 ~ 8월 20일</br>
-적응형 웹사이트 - PC/ MO 
+적응형 웹사이트 - Pc/ Table / Mobile
 </br></br>
 - 운영 : https://www.vse.co.kr/index.vse </br>
 - 작업 서버 : http://www.osangtech.co.kr/project/voice_vse/page/main/index.html
