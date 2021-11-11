@@ -1,0 +1,205 @@
+
+<? include("../../inc/headerScript.html");?>
+<? include("../../inc/header.html");?>
+<link href="../../css/subpage/sub.css" rel="stylesheet" type="text/css"/>
+<script src="../../js/subpage/sub.js" type="text/javascript"></script>
+
+
+<!-- #contentWrap -->
+<!-- 메인과 서브 모두 같은 id="contentWrap"안에 들어가지만 class의 차이로 메인과 서브를 구별 할 것입니다.-->
+<div id="contentWrap" class="pt0">
+	<h2 id="contentAnchor">콘텐츠 영역</h2>
+	
+	<div class="bg_gray pt150 pb60">
+		<div class="inner">
+			<h3 class="tit move">VSE레슨프로란?</h3>
+			<p class="sub_txt text_center mt30 move move02">
+				보이스캐디 VSE 티칭 프로는, 전국 각 지역의 티칭 라이선스를 보유한 프로를 대상으로 모집하며<br />
+				전국 VSE 매장에 소속 프로로 매칭해 주는 프로그램입니다. 
+			</p>
+			<p class="sub_txt text_center mt30 move move02">
+				VSE 소속 프로가 되기 위해서는 간단한 서류 심사와 필요에 따라 전화 심사로 진행되며, <br />
+				VSE 매장과 매칭이 성사 되었을 때는 보이스캐디 와펜, 모자, 파우치, 측정기 할인 코드가 제공됩니다. 
+			</p>
+			<div class="techingpro_process_slide process_slide swiper-container move move02 ">
+				<ul class="techingpro_process swiper-wrapper mt60">
+					<li class="swiper-slide "><span>가입접수</span></li>
+					<li class="swiper-slide "><span>1.서류심사<br/>2.전화심사</span></li>
+					<li class="swiper-slide "><span>VSE티칭<br/>리스트등록</span></li>
+					<li class="swiper-slide "><span>각 지역 VSE<br/>매장 매칭</span></li>
+					<li class="swiper-slide "><span>보이스캐디<br/>굿즈 발송</span></li>
+				</ul>
+				<div class="swiper-scrollbar"></div>
+			</div>
+		</div>
+	</div>
+	<div class="inner pt60">
+		<div class="table_type_01">
+			<h4 class="sub_tit">
+     			VSE레슨프로 지원서
+			</h4>
+			<table class="mt15">
+				<colgroup>
+					<col style="width:180px;">
+					<col style="width:auto">
+				</colgroup>
+				<tbody>
+					<tr>
+						<th><label for="ProName">성명</label></th>
+						<td class="pr0"><p class="x_1"><input type="text" id="ProName"></p></td>
+					</tr>
+					<tr>
+						<th><label for="">성별</label></th>
+						<td class="pr0">
+							<p class="ck_type_03 x_2">
+								<label for="ProGenderM"><input type="radio" id="ProGenderM" name="ProGender"><span>남</span></label>
+								<label for="ProGenderW"><input type="radio" id="ProGenderW" name="ProGender"><span>여</span></label>							
+							</p>	
+						</td>
+					</tr>
+					<tr>
+						<th><label for="">자격증 구분</label></th>
+						<td class="pr0">
+							<p class="">
+								<label for="ProCertif-KPGA"  class="ck_type_02">
+									<input type="radio" id="ProCertif-KPGA" name="ProCertif">
+									<span class="mr20"></span>KPGA
+								</label>
+								<label for="ProCertif-KLPGA" class="ck_type_02 ml40">
+									<input type="radio" id="ProCertif-KLPGA" name="ProCertif">
+									<span class="mr20"></span>KLPGA
+								</label>
+								<label for="ProCertif-USGTF" class="ck_type_02 ml40">
+									<input type="radio" id="ProCertif-USGTF" name="ProCertif">
+									<span class="mr20"></span>USGTF
+								</label>
+								<label for="ProCertif-Other" class="ck_type_02 ml40">
+									<input type="radio" id="ProCertif-Other" name="ProCertif">
+									<span class="mr20"></span>기타
+								</label>
+								<input type="text" class="ml20"/>
+							</p>
+						
+						</td>
+					</tr>
+					<tr>
+						<th><label for="ProCareer">주요경력사항 </label></th>
+						<td class="pr0">
+							<p class="x_1">
+								<textarea id="ProCareer" placeholder="작성해주세요."></textarea>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="ProAreaCk">선호 근무 지역</label></th>
+						<td class="pr0">
+							<p class="x_2">
+								<select class="select_type_01" id="BusinessAreaCk">
+									<option>시/도</option>
+								</select>
+								<select class="select_type_01">
+									<option>시/군/구</option>
+								</select>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="ProTime">선호 근무 시간</label></th>
+						<td class="pr0">
+							<p class="x_1">
+								<select class="select_type_01" id="ProTime">
+									<option>선택해주세요.</option>
+								</select>
+							</p>
+						</td>
+					</tr>
+					
+					<tr>
+						<th><label for="ProReason">지원사유</label></th>
+						<td class="pr0">
+							<p class="x_1">
+								<textarea id="ProReason" placeholder="자유롭게 작성해주세요."></textarea>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="">첨부파일</label></th>
+						<td class="pr0">
+							<!--
+							<div class="filebox">
+								<input class="upload-name" value="파일선택" disabled="disabled">
+								<label for="ex_filename01">파일선택</label>
+								<input type="file" id="ex_filename01" class="upload-hidden"> 
+								<span class="color_point ml20 sub_txt_s" style="">프로자격증 사본, 신분증 사본을 첨부해주세요.</span>
+							</div>
+							
+							<div class="filebox">
+								<input class="upload-name" value="파일선택" disabled="disabled">
+								<label for="ex_filename02">파일선택</label>
+								<input type="file" id="ex_filename02" class="upload-hidden"> 
+							</div>
+							-->
+							<div class="filebox">
+								<label class="file" for="attachFile1">
+									<input type="hidden" name="attachFileSn1" id="attachFileSn1" value="0">
+									<input type="hidden" name="attachFileCd1" id="attachFileCd1" value="ATTCH1">
+									<input type="hidden" name="attachFileUseYn1" id="attachFileUseYn1" value="Y">
+									<input type="file" id="attachFile1" name="attachFile1" class="upload-hidden" title="첨부파일">
+									<span>
+										<input type="text" value="" disabled="disabled" title="첨부파일">
+										<a class="btn02 btn_pp add_search">
+											<span>찾아보기</span>
+										</a>
+									</span>
+								</label>
+								<span class="color_point ml20 sub_txt_s" style="">프로자격증 사본, 신분증 사본을 첨부해주세요.</span>
+							</div>
+							<div class="filebox">
+								<label class="file" for="attachFile1">
+									<input type="hidden" name="attachFileSn1" id="attachFileSn1" value="0">
+									<input type="hidden" name="attachFileCd1" id="attachFileCd1" value="ATTCH1">
+									<input type="hidden" name="attachFileUseYn1" id="attachFileUseYn1" value="Y">
+									<input type="file" id="attachFile1" name="attachFile1" class="upload-hidden" title="첨부파일">
+									<span>
+										<input type="text" value="" disabled="disabled" title="첨부파일">
+										<a class="btn02 btn_pp add_search">
+											<span>찾아보기</span>
+										</a>
+									</span>
+								</label>
+								<span class="color_point ml20 sub_txt_s" style="">프로자격증 사본, 신분증 사본을 첨부해주세요.</span>
+							</div>
+
+						</td>
+					</tr>
+				</tbody>
+			
+			</table>
+			<a class="form_box block mt15" href="/project/voice_vse/page/product/company_personal.html">
+				개인정보 수집 안내 보러가기 <em class="btn_prev"></em>
+			</a>
+			<div class="form_box mt15">
+				<label for="CounselingInfoRCk" class="ck_type_01">
+					<input type="checkbox" id="CounselingInfoRCk" class=""/><span class="mr10"></span><b>[필수]</b> 개인정보 수집안내 동의 및 안내
+				</label>
+			</div>
+			<div class="btn_wrap mt60">
+				<a href="" class="btn wd_250">신청하기</a>
+			</div>
+		</div>
+		<!--table_type_01-->
+	</div>
+</div>
+
+
+<script>
+$(function(){
+	$('#header .gnb > li').eq(5).addClass('active');
+
+});
+
+</script>
+
+<!-- // #contentWrap -->
+<? include("../../inc/footer.html");?>
+			

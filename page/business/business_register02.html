@@ -1,0 +1,203 @@
+<? include("../../inc/headerScript.html");?>
+<? include("../../inc/header.html");?>
+<link href="../../css/subpage/sub.css" rel="stylesheet" type="text/css"/>
+<script src="../../js/subpage/sub.js" type="text/javascript"></script>
+
+
+<!-- #contentWrap -->
+<!-- 메인과 서브 모두 같은 id="contentWrap"안에 들어가지만 class의 차이로 메인과 서브를 구별 할 것입니다.-->
+<div id="contentWrap" class="">
+	<h2 id="contentAnchor">콘텐츠 영역</h2>
+	<div class="inner">
+		<h3 class="tit mb60">
+			보이스캐디 VSE,<br />
+			성공적 창업을 확신합니다.
+		</h3>
+		<!--
+		<ul class="tab_type_01 tab_btn x_2">
+			<li class=""><a href="business_register01.html">창업상담</a></li>
+			<li class="active"><a href="business_register02.html">사업설명회</a></li>
+		</ul>
+		-->
+		
+		<div class="table_type_01 mt40">
+			
+			<p class="x_1">
+				<select class="select_type_01">
+					<option>사업설명회 일정을 선택해주세요.</option>
+				</select>
+			</p>
+			<h3 class="sub_tit mt40">사업설명회 정보</h3>
+			<div class="map_wrap mt10">
+				<div class="table_type_01 ">
+					<table>
+						<colgroup>
+							<col style="width:100px;">
+							<col style="width:auto">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th class="pr0">주소</th>
+								<td class="color_gray5">서울특별시 서초구 논현로 145 수냐빌딩 145 수냐빌딩 5층</td>
+							</tr>
+							<tr>
+								<th class="pr0">연락처</th>
+								<td class="color_gray5">1577-2862</td>
+							</tr>
+							<tr>
+								<th class="pr0">운영시간</th>
+								<td class="color_gray5">09:00 ~ 18:00</td>
+							</tr>
+							<tr>
+								<th class="pr0">시설</th>
+								<td class="color_gray5">스크린, 골프레슨, 스튜디오, 클럽피팅</td>
+							</tr>
+						</tbody>	
+					</table>
+				</div>
+				<img src="../../images/subpage/mapimg.png" alt="" class="mt10" style="width:100%" />
+			</div>
+			<h3 class="sub_tit mt40">사업설명회 신청</h3>
+			<div class="table_type_01 ">
+				<table>
+					<colgroup>
+						<col style="width:100px;">
+						<col style="width:auto">
+					</colgroup>
+					<tbody>
+						<tr>
+							<th class="pr0">주소</th>
+							<td class="color_gray5">서울특별시 서초구 논현로 145 수냐빌딩 145 수냐빌딩 5층</td>
+						</tr>
+						<tr>
+							<th class="pr0">연락처</th>
+							<td class="color_gray5">1577-2862</td>
+						</tr>
+						<tr>
+							<th class="pr0">운영시간</th>
+							<td class="color_gray5">09:00 ~ 18:00</td>
+						</tr>
+						<tr>
+							<th class="pr0">시설</th>
+							<td class="color_gray5">스크린, 골프레슨, 스튜디오, 클럽피팅</td>
+						</tr>
+						<tr>
+							<th class="pr0">주차</th>
+							<td class="color_gray5">수냐빌딩 지하 2층</td>
+						</tr>
+					</tbody>	
+				</table>
+				<img src="../../images/subpage/mapimg.png" alt="" class="mt10" style="width:100%" />
+			</div>
+
+			<h4 class="sub_tit mt40">
+     			사업설명회 신청
+			</h4>
+			<table class="mt15">
+				<colgroup>
+					<col style="width:180px;" />
+					<col style="width:auto"/>
+				</colgroup>
+				<tbody>
+					<tr>
+						<th><label for="BusinessName">이름 <span class="color_red">*</span></label></th>
+						<td class="pr0"><p class="x_1"><input type="text" id="BusinessName" /></p></td>
+					</tr>
+					<tr>
+						<th><label for="BusinessNum">연락처 <span class="color_red">*</span></label></th>
+						<td class="pr0"><p class="x_1"><input type="text" id="BusinessNum" /></p></td>
+					</tr>
+					<tr>
+						<th><label for="BusinessJob">직업 <span class="color_red">*</span></label></th>
+						<td class="pr0">
+							<p class="x_1">
+								<select class="select_type_01" id="BusinessJob">
+									<option>선택해주세요.</option>
+									<option>프로</option>
+									<option>일반인</option>
+								</select>
+							</p>
+						
+						</td>
+					</tr>
+					<tr>
+						<th><label for="BusinessAreaCk">창업지역 <span class="color_red">*</span></label></th>
+						<td class="pr0">
+							<p class="x_2">
+								<select class="select_type_01" id="BusinessAreaCk">
+									<option>시/도</option>
+								</select>
+								<select class="select_type_01">
+									<option>시/군/구</option>
+								</select>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="BusinessPath">인지경로 <span class="color_red">*</span></label></th>
+						<td class="pr0">
+							<p class="x_1">
+								<select class="select_type_01" id="BusinessPath">
+									<option>선택해주세요.</option>
+									<option>TV광고</option>
+									<option>인터넷 광고</option>
+									<option>인터넷 검색</option>
+									<option>우편</option>
+								</select>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="BusinessReason">창업사유 <span class="color_red">*</span></label></th>
+						<td class="pr0">
+							<p class="x_1">
+								<select class="select_type_01" id="BusinessReason">
+									<option>선택해주세요.</option>
+									<option>신규창업(투잡)</option>
+									<option>기존 타석 스크린 교체</option>
+									<option>은퇴 후 창업</option>
+								</select>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="BusinessHope">희망타석</label></th>
+						<td class="pr0">
+							<p class="x_1">
+								<select  class="select_type_01" id="BusinessHope">
+									<option value="">선택해주세요.</option>
+									<option value="1-4개">1-4개</option>
+									<option value="5개-15개">5개-15개</option>
+									<option value="16개 이상">16개 이상</option>
+								</select>
+							</p>
+						</td>
+					</tr>
+				</tbody>
+			
+			</table>
+			<a class="form_box block mt15" href="/project/voice_vse/page/product/company_personal.html">
+				개인정보 수집 안내 보러가기 <em class="btn_prev"></em>
+			</a>
+			<div class="form_box mt15">
+				<label for="BusinessInfoRCk" class="ck_type_01">
+					<input type="checkbox" id="BusinessInfoRCk" class=""/><span class="mr10"></span><b>[필수]</b> 개인정보 수집안내 동의 및 안내
+				</label>
+			</div>
+			<div class="btn_wrap mt60">
+				<a href="" class="btn wd_250">신청하기</a>
+			</div>
+		</div>
+		<!--table_type_01-->
+	</div>
+	
+</div>
+<script>
+$(function(){
+	$('#header .gnb > li').eq(3).addClass('active');
+});
+</script>
+
+<!-- // #contentWrap -->
+<? include("../../inc/footer.html");?>
+			

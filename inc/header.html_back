@@ -1,0 +1,84 @@
+	<!-- #skipNav -->
+	<div id="skipNav">
+		<a href="#contentWrap">본문 바로가기</a>
+		<a href="#header">글로벌 네비게이션 바로가기</a>
+	</div>
+	<!-- // #skipNav -->
+	<!-- #header -->
+	<div id="header">
+		<h2 id="gnbAnchor">글로벌 네비게이션 영역</h2>
+		<!-- #header -->
+		<div class="header_wrap">
+			<a href="/project/voice_vse/page/main/index.html" class="logo"><img src="../../images/com/logo.png" alt="VSE로고" /></a>
+			<ul class="gnb">
+				<li class="">
+					<a href="javascript:;">VSE</a>
+					<ul class="gnb_sub">
+						<li>
+							<a href="javascript:;">제품설명</a>
+							<ul>
+								<li><a href="/project/voice_vse/page/product/product_motion.html">모션 그래픽</a></li>
+								<li><a href="/project/voice_vse/page/product/product_app.html">앱단 설명</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:;">인테리어</a>
+					<ul class="gnb_sub">
+						<li>
+							<a href="/project/voice_vse/page/interior/interior_photo.html">인테리어 사진</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:;">창업</a>
+					<ul class="gnb_sub">
+						<li>
+							<a href="/project/voice_vse/page/startups/startups_system.html">창업시스템</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:;">사업 설명회</a>
+					<ul class="gnb_sub">
+						<li>
+							<a href="/project/voice_vse/page/business/business_register01.html">참가접수필요</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:;">고객지원</a>
+					<ul class="gnb_sub">
+						<li>
+							<a href="/project/voice_vse/page/customer/customer_qna.html">자주하는 질문</a>
+						</li>
+						<li>
+							<a href="/project/voice_vse/page/customer/customer_shop.html">매장찾기</a>
+						</li>
+						<li>
+							<a href="/project/voice_vse/page/customer/customer_inquiry.html">제품, 기타 문의</a>
+						</li>
+						<li>
+							<a href="/project/voice_vse/page/customer/customer_event.html">이벤트&뉴스</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:;">VSE티칭프로</a>
+					<ul class="gnb_sub">
+						<li>
+							<a href="/project/voice_vse/page/teaching/teachingpro.html">VSE티칭프로란?</a>
+						</li>
+						<li>
+							<a href="/project/voice_vse/page/teaching/teaching_register.html">지원서</a>
+						</li>
+					</ul>
+				</li>
+
+			</ul>
+			<a href="javascript:;" class="top_link">보이스캐디 바로가기 <img src="../../images/icon/icon_link.png" alt="링크이동하기 아이콘" /></a>	
+		</div>
+		<div class="header_bg"></div>
+	</div>
+	<!-- // #header -->
