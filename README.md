@@ -15,7 +15,7 @@ voice caddied(https://main.voicecaddie.co.kr/)의 창업 홈페이지
 적응형 웹사이트의 단점인 기기별로 별로의 템플릿을 작성해야하는 부분과 개발이 복잡해짐을 축소해서 제작함.
 </br></br>
 </br>
-모바일 친화성 테스트결과 (페이지가 모바일 친화적임) >> https://search.google.com/test/mobile-friendly/result?id=4PFj92M60dLHLt53OaY0aA
+모바일 친화성 테스트결과 (페이지가 모바일 친화적임) >></br> https://search.google.com/test/mobile-friendly/result?id=4PFj92M60dLHLt53OaY0aA
 
 
 
